@@ -30,7 +30,7 @@
     "prix_unitaire": 22.38
   },
   {
-    "nom": "PÃ¢tes",
+    "nom": "Pâtes",
     "quantite_stock": 124,
     "prix_unitaire": 9.7
   },
@@ -80,7 +80,7 @@
     "prix_unitaire": 3.09
   },
   {
-    "nom": "Å’ufs",
+    "nom": "Œufs",
     "quantite_stock": 130,
     "prix_unitaire": 12.73
   },
@@ -105,12 +105,12 @@
     "prix_unitaire": 21.62
   },
   {
-    "nom": "ThÃ©",
+    "nom": "Thé",
     "quantite_stock": 161,
     "prix_unitaire": 10.56
   },
   {
-    "nom": "CafÃ©",
+    "nom": "Café",
     "quantite_stock": 32,
     "prix_unitaire": 24.04
   },
@@ -120,12 +120,12 @@
     "prix_unitaire": 12.12
   },
   {
-    "nom": "Eau minÃ©rale",
+    "nom": "Eau minérale",
     "quantite_stock": 83,
     "prix_unitaire": 1.19
   },
   {
-    "nom": "CÃ©rÃ©ales",
+    "nom": "Céréales",
     "quantite_stock": 136,
     "prix_unitaire": 10.11
   },
@@ -195,7 +195,7 @@
     "prix_unitaire": 10.05
   },
   {
-    "nom": "MaÃ¯s",
+    "nom": "Maïs",
     "quantite_stock": 76,
     "prix_unitaire": 11.12
   },
@@ -205,7 +205,7 @@
     "prix_unitaire": 11.05
   },
   {
-    "nom": "Ã‰pinards",
+    "nom": "Épinards",
     "quantite_stock": 37,
     "prix_unitaire": 12.8
   },
@@ -265,7 +265,7 @@
     "prix_unitaire": 22.65
   },
   {
-    "nom": "PÃªche",
+    "nom": "Pêche",
     "quantite_stock": 79,
     "prix_unitaire": 24.67
   },
@@ -315,7 +315,7 @@
     "prix_unitaire": 8.15
   },
   {
-    "nom": "PastÃ¨que",
+    "nom": "Pastèque",
     "quantite_stock": 158,
     "prix_unitaire": 24.93
   },
@@ -360,12 +360,12 @@
     "prix_unitaire": 23.84
   },
   {
-    "nom": "CrÃ¨me fraÃ®che",
+    "nom": "Crème fraîche",
     "quantite_stock": 119,
     "prix_unitaire": 4.72
   },
   {
-    "nom": "CrÃ¨me dessert",
+    "nom": "Crème dessert",
     "quantite_stock": 166,
     "prix_unitaire": 15.91
   },
@@ -400,7 +400,7 @@
     "prix_unitaire": 17.77
   },
   {
-    "nom": "Brosse Ã  dents",
+    "nom": "Brosse à dents",
     "quantite_stock": 24,
     "prix_unitaire": 21.75
   },
@@ -430,7 +430,7 @@
     "prix_unitaire": 24.56
   },
   {
-    "nom": "Ã‰ponge",
+    "nom": "Éponge",
     "quantite_stock": 177,
     "prix_unitaire": 2.92
   },

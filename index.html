@@ -1,13 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gestion-de-produits</title>
+    <title>Produits disponibles</title>
   </head>
   <body>
-    <div id="app"></div>
+
+    <nav class="navbar">
+      <span class="navbar-brand">Gestion de produits</span>
+      <a href="/liste.html">Liste de course</a>
+    </nav>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Produits disponibles</h1>
+        <span id="compteur-produits" class="badge">0</span>
+      </div>
+
+      <div class="filters">
+        <input id="recherche" type="text" placeholder="Rechercher un produit..." />
+        <select id="tri">
+          <option value="nom">Trier par nom</option>
+          <option value="prix">Trier par prix</option>
+        </select>
+        <button id="reset-filtres" class="btn-reset">Réinitialiser</button>
+      </div>
+
+      <ul id="liste-produits"></ul>
+    </div>
+
+    <div id="toast-container"></div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
