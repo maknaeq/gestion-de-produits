@@ -27,7 +27,6 @@ function renderLigne(produit, index) {
   const input = tr.querySelector('input')
   const cellSousTotal = tr.querySelector('.cell-sous-total')
 
-  // Mise à jour en place — pas de re-render, le focus est conservé
   input.addEventListener('input', e => {
     const qte = parseInt(e.target.value, 10)
     if (!qte || qte < 1) return
@@ -36,7 +35,6 @@ function renderLigne(produit, index) {
     updateTotal()
   })
 
-  // Normalise si l'utilisateur laisse le champ vide ou < 1
   input.addEventListener('change', e => {
     const qte = parseInt(e.target.value, 10)
     if (!qte || qte < 1) {
