@@ -7,16 +7,13 @@
   </head>
   <body>
 
-    <nav class="navbar">
-      <span class="navbar-brand">Gestion de produits</span>
+    <nav>
+      <span><strong>Gestion de produits</strong></span>
       <a href="/liste.html">Liste de course</a>
     </nav>
 
     <div class="container">
-      <div class="page-header">
-        <h1>Produits disponibles</h1>
-        <span id="compteur-produits" class="badge">0</span>
-      </div>
+      <h1>Produits disponibles (<span id="compteur-produits">0</span>)</h1>
 
       <div class="filters">
         <input id="recherche" type="text" placeholder="Rechercher un produit..." />
@@ -24,7 +21,7 @@
           <option value="nom">Trier par nom</option>
           <option value="prix">Trier par prix</option>
         </select>
-        <button id="reset-filtres" class="btn-reset">Réinitialiser</button>
+        <button id="reset-filtres">Réinitialiser</button>
       </div>
 
       <ul id="liste-produits"></ul>
